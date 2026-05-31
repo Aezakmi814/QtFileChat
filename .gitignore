@@ -1,0 +1,33 @@
+# Build outputs
+build-*/
+debug/
+release/
+*.o
+*.exe
+Makefile
+Makefile.Debug
+Makefile.Release
+object_script.*
+.qmake.stash
+
+# Generated Qt files (uic, moc, rcc)
+ui_*.h
+moc_*.cpp
+qrc_*.cpp
+
+# IDE files
+*.pro.user
+*.user
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Logs
+*.log
+logs.txt
